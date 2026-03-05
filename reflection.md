@@ -8,6 +8,12 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 - List at least two concrete bugs you noticed at the start  
   (for example: "the secret number kept changing" or "the hints were backwards").
 
+# Answer: 
+1. Enter key input doesnt work even if its prompting in the text box.
+2. The game stops after the first win, and the New Game button doesn’t work.
+3. the logic of the game when the secret number should be higher, it says lower. 
+4. calculation in the attempts is wrong. play 5 times wrongly, the game print out 2 
+5. Input validation the game allows user to input outside of the range
 ---
 
 ## 2. How did you use AI as a teammate?
@@ -16,6 +22,8 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 - Give one example of an AI suggestion that was correct (including what the AI suggested and how you verified the result).
 - Give one example of an AI suggestion that was incorrect or misleading (including what the AI suggested and how you verified the result).
 
+1. Copilot
+2. 
 ---
 
 ## 3. Debugging and testing your fixes
