@@ -25,13 +25,18 @@ It wrote the code, ran away, and now the game is unplayable.
 
 ## 📝 Document Your Experience
 
-- [ ] Describe the game's purpose.
-- [ ] Detail which bugs you found.
-- [ ] Explain what fixes you applied.
+- [x] Describe the game's purpose.
+  - The game is a number guessing game where the player tries to guess a secret number, receiving hints after each guess.
+- [x] Detail which bugs you found.
+  - The secret number resets on every button click due to improper state management in Streamlit.
+  - The hints for "Higher/Lower" were incorrect and misleading.
+- [x] Explain what fixes you applied.
+  - Used Streamlit's session state to persist the secret number across interactions.
+  - Corrected the logic for hints so they accurately reflect whether the guess should be higher or lower.
 
 ## 📸 Demo
-
-- [ ] [Insert a screenshot of your fixed, winning game here]
+![alt text](<Screenshot 2026-03-15 at 11.31.02 PM.png>)
+![alt text](<Screenshot 2026-03-15 at 11.31.15 PM.png>)
 
 ## 🚀 Stretch Features
 
