@@ -35,9 +35,7 @@ It wrote the code, ran away, and now the game is unplayable.
   - Corrected the logic for hints so they accurately reflect whether the guess should be higher or lower.
 
 ## 📸 Demo
-![alt text](<Screenshot 2026-03-15 at 11.31.02 PM.png>)
-![alt text](<Screenshot 2026-03-15 at 11.31.15 PM.png>)
+![Game screenshot](<images/Screenshot 2026-03-15 at 11.31.02 PM.png>)
+![Game screenshot](<images/Screenshot 2026-03-15 at 11.31.15 PM.png>)
 
-## 🚀 Stretch Features
 
-- [ ] [If you choose to complete Challenge 4, insert a screenshot of your Enhanced Game UI here]
