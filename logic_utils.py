@@ -8,7 +8,7 @@ def get_range_for_difficulty(difficulty: str):
         return 1, 200
     return 1, 100
 
-
+# Fix 1: Break long line in parse_guess function
 def parse_guess(raw: str, low: int = 1, high: int = 100):
     """
     Parse user input into an int guess.
@@ -27,12 +27,13 @@ def parse_guess(raw: str, low: int = 1, high: int = 100):
         return False, None, "That is not a number."
 
     if value < low or value > high:
-        return False, None, f"Out of range! Please guess between {low} and {high}."
+        msg = f"Out of range! Please guess between {low} and {high}."
+        return False, None, msg
 
     return True, value, None
 
-
-def check_guess(guess, secret):
+# Fix 2: Add type hints to check_guess
+def check_guess(guess: int, secret: int) -> str:
     """
     Compare guess to secret and return the outcome string.
 
